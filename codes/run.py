@@ -159,6 +159,9 @@ def log_metrics(mode, step, metrics):
         
         
 def main(args):
+    if not torch.cuda.is_available():
+        args.cuda = False
+
     if (not args.do_train) and (not args.do_valid) and (not args.do_test):
         raise ValueError('one of train/val/test mode must be choosed.')
     
