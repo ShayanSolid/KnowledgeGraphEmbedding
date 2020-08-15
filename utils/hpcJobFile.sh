@@ -18,6 +18,6 @@ source /home/shsh829c/venv/env1/bin/activate
 
 
 echo $PWD
-/scratch/ws/1/shsh829c-RotatE-Paper/KnowledgeGraphEmbedding/run.sh train RotatE 177743_ALL 0 256 128 1000 15 1 0.1 400000 16 -de
+/scratch/ws/1/shsh829c-RotatE-Paper/KnowledgeGraphEmbedding/run.sh train RotatE 177743_ALL 0 0 256 128 1000 15 1 0.1 400000 16 -de
 
 exit 0
