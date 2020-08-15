@@ -1,0 +1,14 @@
+Frequency for all the relation in the test.txt data set 
+hasReferences: 62773
+hasTopics: 54373
+hasAuthors: 15888
+hasCountry: 13581
+hasCountries: 6411
+hasTypes: 6121
+hasYear: 5872
+hasEntityType: 5872
+hasConfseries: 3372
+hasJourname: 1749
+hasConfname: 1275
+hasStrongCountrie: 295
+hasStrongType: 161

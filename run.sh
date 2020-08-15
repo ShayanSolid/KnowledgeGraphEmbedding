@@ -2,10 +2,12 @@
 
 python -u -c 'import torch; print(torch.__version__)'
 
-CODE_PATH=codes
-DATA_PATH=data
-SAVE_PATH=models
+CODE_PATH=../codes
+DATA_PATH=../data
+SAVE_PATH=../models
 
+#grid RotatE 177743_ALL 1 0 256 100 15 1 0.1 16 -de
+#bash run.sh train RotatE 177743_ALL 0 256 128 1000 15 1 0.1 400000 16 -de
 #The first four parameters must be provided
 MODE=$1
 MODEL=$2
